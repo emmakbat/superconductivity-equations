@@ -9,6 +9,8 @@ penetration depth for bulk superconductors.
 
 $$ \lambda_L^2 = \frac{m}{n_s \mu_0 e^2} $$
 
+$$ \lambda_L^2(T) = \lambda_L^2(0) [1 - (T/T_c)^4] $$
+
 ### Electrodynamics
 
 The current dynamics for a superconductor in the London model are given by:
