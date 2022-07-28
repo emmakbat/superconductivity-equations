@@ -51,7 +51,10 @@ For $\xi >> \lambda$:
 
 $$ \lambda = [\frac{\sqrt{3}}{2\pi} \xi_0 \lambda_L^2]^{1/3} $$
 
-### Pearl Length [3]
+Note also that if $\xi << l$ the superconductor is in the "clean" limit while $\xi >> l$ is the "dirty" limit [3]
+of superconductivity.
+
+### Pearl Length [4]
 
 Thin films (the 2D limit of the London equations) are less effective at screening magnetic field. As a result, the more
 appropriate characteristic length scale is the Pearl length $\Lambda$.
@@ -65,4 +68,7 @@ $$ \Lambda = \frac{2\lambda^2}{d} $$
 [2] A. B. Pippard, "Field variation of the superconducting penetration depth" (1950).
 [https://doi.org/10.1098/rspa.1950.0135](https://doi.org/10.1098/rspa.1950.0135)
 
-[3] J. Pearl, "Vortex Theory of Superconducting Memories" (1965).
+[3] P. W. Anderson, "Theory of dirty superconductors" (1957).
+[http://www.physics.rutgers.edu/~eyuzbash/602/paper2.pdf](http://www.physics.rutgers.edu/~eyuzbash/602/paper2.pdf)
+
+[4] J. Pearl, "Vortex Theory of Superconducting Memories" (1965).
