@@ -2,7 +2,7 @@
 
 Cheat sheet of important equations for thin-film superconducting materials and electronics
 
-## Electrodynamics 
+## [Electrodynamics](https://github.com/emmakbat/superconductivity-equations/blob/main/Electrodynamics.md) 
 - The London equations
   - London penetration depth
   - Electrodynamics
