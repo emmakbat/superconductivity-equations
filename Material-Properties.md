@@ -6,6 +6,7 @@
   - [Current Non-Linearity of Kinetic Inductance](#current-non-linearity-of-kinetic-inductance)
   - [Temperature dependance of Kinetic Inductance](#temperature-dependance-of-kinetic-inductance)
 - [Cooper pair density](#cooper-pair-density)
+- [Critical current](#critical-current)
 
 Many equations or sources were found in Di Zhu's thesis [1].
 
@@ -85,6 +86,12 @@ Temperature dependence of the Cooper pair density [5]:
 
 $$ n_s(T) \approx n_s(0) \left( 1 - \dfrac{T}{T_c}\right)$$
 
+## Critical current
+
+Critical current dependance on temperature [6]:
+
+$$ I_c(T) = I_c(0) \left (  1 - \left( \dfrac{T}{T_c} \right )^2 \right )^2$$
+
 ## References
 
 [1] D. Zhu, "Microwave Engineering in Superconducting Nanowires for Single-Photon Detection" (2019).
@@ -100,5 +107,9 @@ superconducting film" (2001).
 Supercond. Sci. Technol., vol. 31, no. 5, p. 055010, May 2018, doi: 10.1088/1361-6668/aab149.
 https://www.rle.mit.edu/qnn/wp-content/uploads/2020/02/A_Superconducting_Nanowire_can_be_Modeled_by_Using_SPICE.pdf
 
-[5] A. J. Annunziata et al., “Tunable superconducting nanoinductors,” Nanotechnology, vol. 21, no. 44, p. 445202, Nov. 2010, doi: 10.1088/0957-4484/21/44/445202. https://arxiv.org/pdf/1007.4187.pdf
+[5] A. J. Annunziata et al., “Tunable superconducting nanoinductors,” Nanotechnology, vol. 21, no. 44, p. 445202, Nov. 2010, doi: 10.1088/0957-4484/21/44/445202. 
+https://arxiv.org/pdf/1007.4187.pdf
+
+[6] J. K. W. Yang, A. J. Kerman, E. A. Dauler, V. Anant, K. M. Rosfjord, and K. K. Berggren, “Modeling the Electrical and Thermal Response of Superconducting Nanowire Single-Photon Detectors,” IEEE Transactions on Applied Superconductivity, vol. 17, no. 2, pp. 581–585, Jun. 2007, doi: 10.1109/TASC.2007.898660.
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4277823
 
