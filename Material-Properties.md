@@ -54,6 +54,11 @@ $$ L_k(i_D) = \dfrac{L_\circ}{2\cos \left(  \frac{2}{3} \arcsin \left( 0.6 \frac
 where $I_{SW}$ is the switching current.
 
 
+> Analogy for sheet ($L_{k, sh}=L_k^\square$) vs lumped element ($L_k$) vs unit ($L_k'$) inductance with resistance analogues.
+> $L_k \sim R = \rho \dfrac{l}{wt}$, $L_k^\square \sim R^\square = \dfrac{\rho}{t}$ and $L_k' \sim R' = \dfrac{R}{l} = \dfrac{\rho}{wt}$.
+> Therefore since $R^\square = w R'$ then $L_k' = \dfrac{L_k^\square}{w}$
+
+
 [1] D. Zhu, "Microwave Engineering in Superconducting Nanowires for Single-Photon Detection" (2019).
 [https://dspace.mit.edu/handle/1721.1/124123](https://dspace.mit.edu/handle/1721.1/124123)
 
