@@ -42,6 +42,12 @@ $$ L_k(0, T)/L_k(I_b, T) = \left[1 - \left(\frac{|I_b|}{I_d(T)}\right)^n\right]^
 where $I_d$ is the actual depairing current of the wire, and $n$ is an experimentally 
 determined value for each $T/T_c$.
 
+From SPICE simulation of s/c nanowire paper [4] Nonlinearity kinetic inductance current dependance
+
+$$ L_k(i_D) = \dfrac{L_\circ}{2\cos \left(  \frac{2}{3} \arcsin \left( 0.6 \frac{i_D}{I_{SW}}\right) \right) - 1} $$
+
+where $I_{SW}$ is the switching current.
+
 
 [1] D. Zhu, "Microwave Engineering in Superconducting Nanowires for Single-Photon Detection" (2019).
 [https://dspace.mit.edu/handle/1721.1/124123](https://dspace.mit.edu/handle/1721.1/124123)
@@ -51,3 +57,7 @@ determined value for each $T/T_c$.
 
 [3] A. Semenov, G. Gol’tsman, and A. Korneev, "Quantum detection by current carrying
 superconducting film" (2001). 
+
+[4] K. K. Berggren et al., “A superconducting nanowire can be modeled by using SPICE,”
+Supercond. Sci. Technol., vol. 31, no. 5, p. 055010, May 2018, doi: 10.1088/1361-6668/aab149.
+https://www.rle.mit.edu/qnn/wp-content/uploads/2020/02/A_Superconducting_Nanowire_can_be_Modeled_by_Using_SPICE.pdf
