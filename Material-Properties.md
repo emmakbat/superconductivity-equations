@@ -21,7 +21,9 @@ $$ \Delta = 2.15 k_b T_c $$
 
 A good estimate from Mattis-Bardeen theory:
 
-$$ L_k = \frac{\hbar}{\pi \Delta} \rho \approx 1.378 \frac{Rs}{Tc} $$
+$$ L_k = \frac{\hbar}{\pi \Delta} \rho $$
+
+$$ L_{k, sh} \approx 1.378 \frac{Rs}{Tc} $$
 
 From thin film material properties:
 
