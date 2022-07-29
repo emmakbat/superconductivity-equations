@@ -53,6 +53,15 @@ $$ L_k(i_D) = \dfrac{L_\circ}{2\cos \left(  \frac{2}{3} \arcsin \left( 0.6 \frac
 
 where $I_{SW}$ is the switching current.
 
+Ginzburg-Landau (GL) theory temperature dependance of cooper pair density effect on kinetic inductance - works
+in 1D for $T$ near $T_c$ and $I\approx 0$ [5]:
+
+$$ L_k(T) = L_k(0) \left ( \dfrac{1}{1-T/T_c} \right )$$
+
+Or expressed in terms of the GL magnetic penetration depth $\lambda$ [5]:
+
+$$ L_k(T) = \mu_0 \left(\lambda\left(T\right)\right)^2 \left ( \dfrac{l}{wd}\right ) $$
+
 
 > Analogy for sheet ($L_{k, sh}=L_k^\square$) vs lumped element ($L_k$) vs unit ($L_k'$) inductance with resistance analogues.
 > $L_k \sim R = \rho \dfrac{l}{wt}$, $L_k^\square \sim R^\square = \dfrac{\rho}{t}$ and $L_k' \sim R' = \dfrac{R}{l} = \dfrac{\rho}{wt}$.
@@ -71,3 +80,6 @@ superconducting film" (2001).
 [4] K. K. Berggren et al., “A superconducting nanowire can be modeled by using SPICE,”
 Supercond. Sci. Technol., vol. 31, no. 5, p. 055010, May 2018, doi: 10.1088/1361-6668/aab149.
 https://www.rle.mit.edu/qnn/wp-content/uploads/2020/02/A_Superconducting_Nanowire_can_be_Modeled_by_Using_SPICE.pdf
+
+[5] A. J. Annunziata et al., “Tunable superconducting nanoinductors,” Nanotechnology, vol. 21, no. 44, p. 445202, Nov. 2010, doi: 10.1088/0957-4484/21/44/445202. https://arxiv.org/pdf/1007.4187.pdf
+
