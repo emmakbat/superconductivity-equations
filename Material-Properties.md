@@ -34,7 +34,7 @@ $$ L_k' = \mu_0 \lambda_L^2 $$
 
 And in general, we use the sheet kinetic inductance:
 
-$$ L_{ks} = L_k/d $$
+$$ L_{ks} = L_k'/d $$
 
 Nonlinearity with a small applied current:
 
