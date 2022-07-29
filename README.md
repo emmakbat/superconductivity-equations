@@ -9,3 +9,7 @@ Cheat sheet of important equations for thin-film superconducting materials and e
 - Modifications to the London equations
   - Coherence length
   - Pearl Length
+
+## [Material Properties](https://github.com/emmakbat/superconductivity-equations/blob/main/Material-Properties.md)
+- Energy Gap
+- Kinetic Inductance
