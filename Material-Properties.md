@@ -1,3 +1,12 @@
+# Material Properties
+
+- [Energy Gap](#energy-gap)
+- [Kinetic Inductance](#kinetic-inductance)
+  - [Sheet, unit and lumped inductance](#kinetic-inductance)
+  - [Current Non-Linearity of Kinetic Inductance](#current-non-linearity-of-kinetic-inductance)
+  - [Temperature dependance of Kinetic Inductance](#temperature-dependance-of-kinetic-inductance)
+- [Cooper pair density](#cooper-pair-density)
+
 Many equations or sources were found in Di Zhu's thesis [1].
 
 ## Energy Gap
