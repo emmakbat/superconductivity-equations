@@ -19,15 +19,18 @@ $$ \Delta = 2.15 k_b T_c $$
 
 ## Kinetic Inductance
 
+(note on notation: $L_k'$ is unit inductance, as in a transmission line;
+$L_k$ is lumped element inductance, as in a circuit)
+
 A good estimate from Mattis-Bardeen theory:
 
-$$ L_k = \frac{\hbar}{\pi \Delta} \rho $$
+$$ L_k' \approx \frac{\hbar}{\pi \Delta} \rho $$
 
 $$ L_{k, sh} \approx 1.378 \frac{Rs}{Tc} $$
 
 From thin film material properties:
 
-$$ L_k = \mu_0 \lambda_L^2 $$
+$$ L_k' = \mu_0 \lambda_L^2 $$
 
 And in general, we use the sheet kinetic inductance:
 
@@ -35,11 +38,11 @@ $$ L_{ks} = L_k/d $$
 
 Nonlinearity with a small applied current:
 
-$$ L_k(I) = L_k(0) [1 + (I/I^{sw})^2] $$
+$$ L_k'(I) = L_k'(0) [1 + (I/I^{sw})^2] $$
 
 Nonlinearity with a large bias current $I_b$:
 
-$$ L_k(0, T)/L_k(I_b, T) = \left[1 - \left(\frac{|I_b|}{I_d(T)}\right)^n\right]^{1/n} $$
+$$ L_k'(0, T)/L_k'(I_b, T) = \left[1 - \left(\frac{|I_b|}{I_d(T)}\right)^n\right]^{1/n} $$
 
 where $I_d$ is the actual depairing current of the wire, and $n$ is an experimentally 
 determined value for each $T/T_c$.
