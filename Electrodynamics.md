@@ -53,7 +53,7 @@ For $\xi >> \lambda$:
 
 $$ \lambda = [\frac{\sqrt{3}}{2\pi} \xi_0 \lambda_L^2]^{1/3} $$
 
-Note also that if $\xi << l$ the superconductor is in the "clean" limit while $\xi >> l$ is the "dirty" limit [3]
+Note also that if $\xi << l$ (equivalently, $\xi_0 << l$) the superconductor is in the "clean" limit while $\xi >> l$ is the "dirty" limit [3]
 of superconductivity.
 
 ### Pearl Length [4]
