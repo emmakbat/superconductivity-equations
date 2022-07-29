@@ -9,6 +9,8 @@ penetration depth for bulk superconductors.
 
 $$ \lambda_L^2 = \frac{m}{n_s \mu_0 e^2} $$
 
+Note that $\lambda_L = c/\omega_p$, the plasma frequency.
+
 Due to the temperature dependence of $n_s$ (see Material-Properties):
 
 $$ \lambda_L^2(T) = \lambda_L^2(0) [1 - (T/T_c)^4] $$
