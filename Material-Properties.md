@@ -22,6 +22,10 @@ $$ \Delta = 2.15 k_b T_c $$
 (note on notation: $L_k'$ is unit inductance, as in a transmission line;
 $L_k$ is lumped element inductance, as in a circuit)
 
+> Analogy for sheet ($L_{k, sh}=L_k^\square$) vs lumped element ($L_k$) vs unit ($L_k'$) inductance with resistance analogues.
+> $L_k \sim R = \rho \dfrac{l}{wt}$, $L_k^\square \sim R^\square = \dfrac{\rho}{t}$ and $L_k' \sim R' = \dfrac{R}{l} = \dfrac{\rho}{wt}$.
+> Therefore since $R^\square = w R'$ then $L_k' = \dfrac{L_k^\square}{w}$
+
 A good estimate from Mattis-Bardeen theory:
 
 $$ L_k' \approx \frac{\hbar}{\pi \Delta} \rho $$
@@ -35,6 +39,8 @@ $$ L_k' = \mu_0 \lambda_L^2 $$
 And in general, we use the sheet kinetic inductance:
 
 $$ L_{ks} = L_k'/d $$
+
+### Current Non-Linearity of Kinetic Inductance
 
 Nonlinearity with a small applied current:
 
@@ -51,7 +57,9 @@ From SPICE simulation of s/c nanowire paper [4] Nonlinearity kinetic inductance 
 
 $$ L_k(i_D) = \dfrac{L_\circ}{2\cos \left(  \frac{2}{3} \arcsin \left( 0.6 \frac{i_D}{I_{SW}}\right) \right) - 1} $$
 
-where $I_{SW}$ is the switching current.
+where $I_{SW}$ is the switching current and $L_\circ$ is the zero-current inductance of the wire.
+
+### Temperature dependance of Kinetic Inductance
 
 Ginzburg-Landau (GL) theory temperature dependance of cooper pair density effect on kinetic inductance - works
 in 1D for $T$ near $T_c$ and $I\approx 0$ [5]:
@@ -62,11 +70,13 @@ Or expressed in terms of the GL magnetic penetration depth $\lambda$ [5]:
 
 $$ L_k(T) = \mu_0 \left(\lambda\left(T\right)\right)^2 \left ( \dfrac{l}{wd}\right ) $$
 
+## Cooper pair density
 
-> Analogy for sheet ($L_{k, sh}=L_k^\square$) vs lumped element ($L_k$) vs unit ($L_k'$) inductance with resistance analogues.
-> $L_k \sim R = \rho \dfrac{l}{wt}$, $L_k^\square \sim R^\square = \dfrac{\rho}{t}$ and $L_k' \sim R' = \dfrac{R}{l} = \dfrac{\rho}{wt}$.
-> Therefore since $R^\square = w R'$ then $L_k' = \dfrac{L_k^\square}{w}$
+Temperature dependence of the Cooper pair density [5]:
 
+$$ n_s(T) \approx n_s(0) \left( 1 - \dfrac{T}{T_c}\right)$$
+
+## References
 
 [1] D. Zhu, "Microwave Engineering in Superconducting Nanowires for Single-Photon Detection" (2019).
 [https://dspace.mit.edu/handle/1721.1/124123](https://dspace.mit.edu/handle/1721.1/124123)
