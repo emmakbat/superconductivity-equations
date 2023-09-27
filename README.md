@@ -18,3 +18,5 @@ Cheat sheet of important equations for thin-film superconducting materials and e
   - [Temperature dependance of Kinetic Inductance](Material-Properties.md#temperature-dependance-of-kinetic-inductance)
 - [Cooper pair density](Material-Properties.md#cooper-pair-density)
 - [Critical current](Material-Properties.md#critical-current)
+
+## [Microscopic Theories](Microscopic-Theories.md)
