@@ -19,4 +19,4 @@ Cheat sheet of important equations for thin-film superconducting materials and e
 - [Cooper pair density](Material-Properties.md#cooper-pair-density)
 - [Critical current](Material-Properties.md#critical-current)
 
-## [Microscopic Theories](Microscopic_Theories.md)
+## [Microscopic Theories](Microscopic-Theories.md)
