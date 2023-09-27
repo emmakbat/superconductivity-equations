@@ -6,7 +6,7 @@ Valid near $T_c$.
 
 (2) $-\vec{\nabla}^2 \frac{\vec{A}}{\mu_0} = \vec{J_s} = \frac{e^{* 2}}{m^* } [-\vec{A}|\Psi|^2 + \frac{i\hbar}{2e^* } (\Psi^* \vec{\nabla}\Psi - \Psi \vec{\nabla}\Psi^* )]$
 
-where $\alpha/\beta = |\Psi_0|^2$ and $\alpha^2/\beta = \mu_0 H_c^2$
+where $-\alpha/\beta = |\Psi_0|^2$ and $\alpha^2/\beta = \mu_0 H_c^2$
 
 Equation (2) reduces to the 2nd London Equation if the phase of $\Psi$ is uniform.
 
