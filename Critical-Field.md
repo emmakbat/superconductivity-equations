@@ -1,5 +1,13 @@
 # Critical Field
 
+## The Simple Version
+
+It was proposed by Chandresekhar [1] that superconductivity should be broken when the magnetic energy surpasses the superconducting energy gap, that is:
+
+(1) $H_c = \Delta/2\mu$
+
+Where $\mu$ is the Bohr magneton. This prediction is correct within order of magnitude in bulk alloy superconductors such as NbTi.
+
 ## Ginzburg-Landau Parallel Field in Thin Films
 
 We assume that at the critical field a thin film undergoes a second-order phase transition such that the order parameter goes to zero and the screening length goes to infinity.
@@ -23,3 +31,5 @@ one can derive from the GL equations:
 
 With $\kappa$ being the ratio between the GL coherence length and penetration depth. So for $\kappa < 1/\sqrt{2}$ we have $H_{c2} < H_c$ (Type I), otherwise $H_{c2} > H_c$ (Type II).
 Due to the way this was derived, it gives the perpendicular critical field.
+
+[1] Chandrasekhar, APL 1962.
