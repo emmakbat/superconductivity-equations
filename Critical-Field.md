@@ -19,7 +19,7 @@ This definition still seems tautological to me, but it turns out this can be wri
 (2) $H_c(0) = \sqrt{4\pi N(0)} \Delta(0)$
 
 Where $N(0)$ is the electronic density of states for a system of unit volume. This is kind of like the simple version, but now we include density of states. This is related to a measurable quantity,
-the electronic specific heat coefficient:
+the electronic specific heat coefficient, which is related to normal-state electronic specific heat as $C_{en} = \gamma T$:
 
 (3) $\gamma = \frac{2}{3} \pi^2 N(0) k^2_B$
 
