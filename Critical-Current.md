@@ -1,8 +1,8 @@
 # Critical Current
 - [Ginzburg-Landau Picture](#ginzburg-landau-picture)
 
-A note: it's a little hard to tell where some of these derivations arise, but as far as I can tell much of it was done first by Bardeen in a 1962 paper and has since been repeated in many
-textbooks such as Tinkham's.
+A note: it's a little hard to tell where some of these derivations arise, but historically these derivations were generally done by some combination of Abrikosov, Ginzburg, Landau, Tinkham, 
+and Bardeen. Bardeen wrote an early paper compiling much of it for thin films in 1962, for instance.
 
 ## Ginzburg-Landau Picture
 An adaptation of Tinkham's derivation plus some interpretation from the lectures of Christopher L. Henley at Cornell (2011).
