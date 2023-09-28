@@ -41,6 +41,14 @@ We take the coefficient on the second-order derivative of the normalized wavefun
 
 This is *not* the same as the Pippard coherence length from our [Electrodynamics](#Electrodynamics.md) discussion, most notably because it diverges at $T_c$. However it will turn out they take on similar values so long as you're well below $T_c$.
 
+We can also define a Ginzburg-Landua penetration depth:
+
+(10) $\lambda^2_{GL} = \frac{m*\beta(T) c^2}{4\pi |\alpha(T)| e*^2}$
+
+And finally, the Ginzburg-Landau parameter, which will later allow us to define Type-I vs Type-II superconductors:
+
+(11) $\kappa = \lambda_{GL}/\xi_{GL}$
+
 ## Bardeen-Cooper-Schrieffer
 
 ## Relating Different Theories
